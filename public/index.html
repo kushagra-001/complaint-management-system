@@ -41,6 +41,7 @@ img.p{max-width:100%;max-height:230px;border-radius:12px;margin:.4rem 0}
 @media(max-width:860px){.app,.auth{grid-template-columns:1fr}aside{position:static;height:auto;flex-direction:row;flex-wrap:wrap}.me,.sec,.logo{display:none}.hero{display:none}.two{grid-template-columns:1fr}main,.top{padding:1rem}}
 </style></head><body><div id="app"></div><div id="modal" onclick="if(event.target==this)closeM()"><div id="mb"></div></div>
 <script>
+   // <p> My name is YashPal Singh<p>
 const $=id=>document.getElementById(id),V=id=>$(id).value.trim(),fd=d=>d?new Date(d).toLocaleString():'';
 const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const bd=s=>`<span class="b ${s.replace(/\s/g,'')}">${s}</span>`,opts=(a,sel)=>a.map(x=>`<option ${x==sel?'selected':''}>${E(x)}</option>`).join('');

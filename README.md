@@ -1,4 +1,4 @@
-# Complaint Management System (Node.js + Express + MongoDB + JWT)
+# Complaint Management Portal (Node.js + Express + MongoDB + JWT)
 1. Install Node.js 18+ and MongoDB (or use a free MongoDB Atlas URI).
 2. `npm install`
 3. Optional: set `MONGO_URI` and `JWT_SECRET` (see `.env.example`). Defaults to `mongodb://127.0.0.1:27017/cms`.
